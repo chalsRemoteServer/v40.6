@@ -60,9 +60,9 @@ struct ErrorHardware  eHw[SIZE_ERROR_HW];//lista de errores de hardware
 unsigned char ErrorStatusLeds;
 struct _Error323_ e;//error controller data struct
 extern  volatile unsigned char  TM1_IRQ1;
-
-uint8_t flip;   
 Led_ADC ledADC;
+uint8_t flip;   
+//Led_ADC ledADC;
 
 
 // Definición de variables globales
@@ -753,7 +753,7 @@ enum{ TIME_ON=300,TIME_OFF=2000};
 static uint8 ret;
   if(++ledADC.control>800){ret=0;//0011 1111 
       if((ledADC.monADC.monADCbyte&0x3F)==0x3F){//no hay error
-		   if(ledADC.status){	  
+		 if(ledADC.status){	  
 			 if(++ledADC.LedControl>TIME_ON){
 				 ledADC.status=APAGADO;  
 				 LED3_Process_PutVal(APAGADO);}}

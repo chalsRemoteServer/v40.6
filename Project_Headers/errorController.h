@@ -149,6 +149,7 @@ typedef struct{
   uint32 LedControl;
 }Led_ADC;
 
+extern Led_ADC ledADC;  
 
 
 
