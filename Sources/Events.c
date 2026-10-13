@@ -54,8 +54,7 @@ extern struct _COMMs_ com;
 volatile uint64_t Tick;//reloj del systema
 static uint8_t milisecond;//milisegundo control para ADC
 extern volatile uint8 delay_RelojAnalogo_IRQ;//cuenta 100mseg y alli se queda si llega alos 100mseg.,
-extern volatile  unsigned char ADCstatus;//maquina de estados del control del adc adquisicion de datos
-
+extern volatile unsigned char ADCstatus;
 
 /* User includes (#include below this line is not maintained by Processor Expert) */
 

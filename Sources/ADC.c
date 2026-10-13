@@ -63,8 +63,6 @@ struct _ADC_ adc;
 extern struct _Signal_ Signal;
 extern volatile ErrorControl_t FailsCtl;
 extern struct _Signale_ Signale;
-extern Led_ADC ledADC;
-
 
 
 
