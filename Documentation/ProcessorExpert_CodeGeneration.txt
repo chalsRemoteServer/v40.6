@@ -4722,3 +4722,9 @@ Target Processor: MCF52233_80_LQFP; CPUDB ver 3.00.000
  - Documentation\v40.5.2.7_Settings.xml - regenerated
  - Documentation\v40.5.2.7_SIGNALS.txt - regenerated
 Totally 9 file(s) changed during code generation.
+###############################################################
+Code generation 2026/10/14, 16:23; CodeGen: 1 by user: chals
+by Processor Expert 10.3  for Freescale Microcontrollers; PE core 05.09
+Configuration: INTERNAL_FLASH
+Target Processor: MCF52233_80_LQFP; CPUDB ver 3.00.000
+# There is no information about previous code generation available, starting from now.
